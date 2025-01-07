@@ -17,6 +17,8 @@
 			mouse = "a";
 			termguicolors = true;
 			wrap = true;
+			shortmess = "ltToOCFsI";
+			numberwidth = 4;
 
 			# Indent
 			shiftwidth = 4;
