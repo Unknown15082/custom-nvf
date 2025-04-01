@@ -1,30 +1,44 @@
 {
     config.vim = {
         # Basics
-        enableEditorconfig = true;
+		viAlias = true;
+		vimAlias = true;
         useSystemClipboard = true;
-        lineNumberMode = "number";
         preventJunkFiles = true;
         searchCase = "smart";
 
         # Globals
-        globals.mapleader = " ";
-        globals.maplocalleader = " ";
+		globals = {
+			mapleader = " ";
+			maplocalleader = " ";
+			editorconfig = true;
+		};
 
         # Options
         options = {
-            # UI
+            # UX
             mouse = "a";
-            termguicolors = true;
             wrap = true;
-            shortmess = "ltToOCFsI";
             numberwidth = 4;
+			cmdheight = 1;
+
+			# UI
+            termguicolors = true;
+            shortmess = "ltToOCFsI";
+			cursorline = true;
+			cursorlineopt = "both";
+			signcolumn = "yes";
+			showmode = false;
+			ruler = false;
 
             # Indent
             shiftwidth = 4;
             tabstop = 4;
             softtabstop = 4;
             expandtab = false;
+			autoindent = true;
+			smartindent = true;
+			breakindent = true;
 
             # Splits
             splitbelow = true;
