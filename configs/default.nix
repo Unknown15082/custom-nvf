@@ -1,7 +1,7 @@
 {
-	imports = [
-		./general.nix
-		./options.nix
-		./plugins
-	];
+    imports = [
+        ./general.nix
+        ./options.nix
+        ./plugins
+    ];
 }

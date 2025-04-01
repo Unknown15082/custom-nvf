@@ -1,6 +1,6 @@
 {
-	config.vim = {
-		viAlias = true;
-		vimAlias = true;
-	};
+    config.vim = {
+        viAlias = true;
+        vimAlias = true;
+    };
 }
