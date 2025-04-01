@@ -8,6 +8,8 @@
             highlight.enable = true;
             incrementalSelection.enable = true;
             indent.enable = true;
+
+			autotagHtml = true;
         };
 
         languages.enableTreesitter = true;
