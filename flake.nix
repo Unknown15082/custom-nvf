@@ -36,7 +36,9 @@
                 };
 
                 # nix fmt
-                formatter = pkgs.nixfmt-rfc-style;
+                formatter = pkgs.writeShellScriptBin "nixfmt" ''
+                    exec ${pkgs.nixfmt-rfc-style}/bin/nixfmt --indent 4 **/*.nix
+                '';
             }
         );
 }
