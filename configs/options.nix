@@ -1,5 +1,5 @@
 {
-    config.vim = {
+    vim = {
         # Basics
 		viAlias = true;
 		vimAlias = true;

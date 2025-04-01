@@ -1,5 +1,5 @@
 {
-	config.vim.keymaps = [
+	vim.keymaps = [
 		{ # Clear highlight
 			key = "<Esc>";
 			mode = "n";

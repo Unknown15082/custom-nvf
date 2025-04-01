@@ -1,5 +1,5 @@
 {
-    config.vim = {
+    vim = {
         treesitter = {
             enable = true;
             addDefaultGrammars = true;

@@ -1,5 +1,5 @@
 {
-    config.vim = {
+    vim = {
         binds.whichKey = {
             enable = true;
         };

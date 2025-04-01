@@ -1,5 +1,5 @@
 {
-    config.vim = {
+    vim = {
         telescope = {
             enable = true;
 
