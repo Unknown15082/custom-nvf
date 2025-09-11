@@ -15,6 +15,7 @@
                 "x"
             ];
             silent = true;
+            expr = true;
             action = "v:count == 0 ? 'gj' : 'j'";
         }
         {
@@ -25,6 +26,7 @@
                 "x"
             ];
             silent = true;
+            expr = true;
             action = "v:count == 0 ? 'gk' : 'k'";
         }
     ];

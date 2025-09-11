@@ -5,7 +5,7 @@
         vimAlias = true;
         preventJunkFiles = true;
         searchCase = "smart";
-		clipboard.registers = "unnamedplus";
+        clipboard.registers = "unnamedplus";
 
         # Globals
         globals = {
