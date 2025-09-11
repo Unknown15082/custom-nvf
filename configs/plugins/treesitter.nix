@@ -1,3 +1,4 @@
+{ pkgs, ... }:
 {
     vim = {
         treesitter = {
@@ -10,6 +11,11 @@
             indent.enable = true;
 
 			autotagHtml = true;
+
+			# Extra grammars
+			grammars = with pkgs.vimPlugins.nvim-treesitter.builtGrammars; [
+				scheme
+			];
         };
 
         languages.enableTreesitter = true;

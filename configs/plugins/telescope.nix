@@ -24,11 +24,11 @@
                         COLORTERM = "truecolor";
                     };
 
-                    sorting_strategy = "ascending";
+                    sorting_strategy = "descending";
 
 					layout_config = {
                         horizontal = {
-                            prompt_position = "top";
+							prompt_position = "bottom";
                             preview_width = 0.4;
                         };
                         width = 0.8;

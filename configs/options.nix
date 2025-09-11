@@ -3,9 +3,9 @@
         # Basics
         viAlias = true;
         vimAlias = true;
-        useSystemClipboard = true;
         preventJunkFiles = true;
         searchCase = "smart";
+		clipboard.registers = "unnamedplus";
 
         # Globals
         globals = {

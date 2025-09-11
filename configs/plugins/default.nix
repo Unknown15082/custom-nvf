@@ -4,5 +4,6 @@
         ./colorscheme.nix
         ./treesitter.nix
         ./telescope.nix
+		./languages.nix
     ];
 }
